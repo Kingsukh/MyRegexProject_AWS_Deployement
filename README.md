@@ -42,7 +42,7 @@ It’s designed to be a straightforward tool for testing regex patterns and perf
 ## Usage
 
 ### 1. **Regex Matcher**:
-- **Test String**: Input any string to test (e.g., `Hello123, world!`).
+- **Test String**: Input any string to test (e.g., `amit113920,Hi!`).
 - **Regex Pattern**: Enter a valid regex (e.g., `\d+` to match digits).
 - Click "Match" to see all matches in the string.
 
