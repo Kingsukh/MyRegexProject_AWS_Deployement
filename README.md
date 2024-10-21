@@ -80,12 +80,6 @@ regex-matcher-email-validator/
 
 ---
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
 ## Acknowledgements
 
 Thanks to [Innomatics Research Labs](https://www.innomatics.in) , Nagaraju Ekkrela Sir(https://github.com/nagarajuekkirala), and Kanav Bansal Sir(https://github.com/bansalkanav) for their guidance and support during this project.
