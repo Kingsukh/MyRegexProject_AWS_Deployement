@@ -18,30 +18,24 @@ It’s designed to be a straightforward tool for testing regex patterns and perf
 
 ## Installation and Setup
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/regex-matcher-email-validator.git
-    cd regex-matcher-email-validator
-    ```
-
-2. **Create a virtual environment** (optional but recommended):
+1. **Create a virtual environment** (optional but recommended, so that local system cannot face any issue):
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     ```
 
-3. **Install dependencies**:
+2. **Install dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Run the application**:
+3. **Run the application**:
     ```bash
-    python app.py
+    nohup python3 app.py &
     ```
 
-5. **Access the application**:
-   Open your browser and go to `http://localhost:5000`.
+4. **Access the application**:
+   Open your browser and go to `(http://13.61.33.243:5000/validate_email)`.
 
 ---
 
@@ -63,11 +57,10 @@ It’s designed to be a straightforward tool for testing regex patterns and perf
 ```
 regex-matcher-email-validator/
 │
-├── app.py                  # Main Flask app
+├── app.py                   # Main Flask app
 ├── requirements.txt         # Dependencies
 ├── templates/               # Folder for HTML templates
-│   └── index.html           # Main UI template
-└── README.md                # Project documentation
+  └── index.html             # Main UI template
 ```
 
 ---
